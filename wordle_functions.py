@@ -33,7 +33,6 @@ def wordle_output():
         # Check if user input is a valid wordle output
         if len(output) == 5 and all(i in colors for i in output):
             print("wordle output:", response)
-            print(output)
             return output
         else: 
             print("invalid wordle output:", response)
